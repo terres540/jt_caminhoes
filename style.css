@@ -1,3 +1,65 @@
+.cabecalho {
+  background-color: #2F4F4F;
+  color: #fff;
+
+}
+
+
+.cabecalho ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #2f4f4f;
+}
+ 
+.cabecalho li{
+    /*display: inline;*/
+    float: left;
+}
+
+.cabecalho li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.cabecalho li a:hover{
+ background-color: #111 ;
+}
+
+.rodape {
+    background-color: #2F4F4F;
+    color: #fff; 
+}
+
+.rodape ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #2f4f4f;
+}
+
+.rodape li{
+    /*display: inline;*/
+    float: left;
+}
+
+.rodape li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.rodape li a:hover{
+ background-color: #111 ;
+}
+
 body {
     font-family: 'Arial', sans-serif;
     background-color: #f4f4f4;
@@ -7,8 +69,9 @@ body {
 
 h1 {
     text-align: center;
-    color: #333;
+    color: #fff;
 }
+
 
 form {
     max-width: 400px;
