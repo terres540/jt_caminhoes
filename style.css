@@ -111,4 +111,26 @@ button:hover {
     background-color: #45a049;
 }
 
+.carrossel{
+    box-shadow: 2px 2px 4px black;
+    overflow: hidden;
+    height: 250px;
+    width: 250px;
+}
+
+.container{
+    display: flex;
+    transition: transform 0.5 ease-in-out;
+    transform: translateX(0);
+}
+img{
+    object-fit: cover;
+    height: 250px;
+    width: 250px;
+}
+
+
+
+
+
 /* Adicione estilos adicionais conforme necessário */
